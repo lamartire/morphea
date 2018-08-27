@@ -1,0 +1,3 @@
+var typedoc = typedoc || {};
+            typedoc.search = typedoc.search || {};
+            typedoc.search.data = {"kinds":{"64":"Function","256":"Interface"},"rows":[{"id":0,"kind":256,"name":"IStyles","url":"interfaces/istyles.html","classes":"tsd-kind-interface"},{"id":1,"kind":64,"name":"createStylesFromString","url":"globals.html#createstylesfromstring","classes":"tsd-kind-function"},{"id":2,"kind":64,"name":"css","url":"globals.html#css","classes":"tsd-kind-function"}]};

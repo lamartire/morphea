@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`createStylesFromString – creates styles object from string 1`] = `
+Object {
+  "display": "block",
+  "width": "100px",
+}
+`;
+
+exports[`css creates styles object 1`] = `
+Object {
+  "background": "rgba(255,255,255,0)",
+  "color": "#fff",
+  "display": "block",
+  "width": "100px",
+}
+`;
+
+exports[`css creates styles with variables 1`] = `
+Object {
+  "background": "rgba(255,255,255,0)",
+  "color": "#fff",
+  "display": "block",
+  "width": "100px",
+}
+`;
+
+exports[`css merge other css in template literals 1`] = `
+Object {
+  "display": "block",
+  "height": "100px",
+  "width": "100px",
+}
+`;
+
+exports[`css returns empty object 1`] = `Object {}`;
