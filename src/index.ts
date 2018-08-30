@@ -37,7 +37,7 @@ export function css(
   ...props: Array<any>
 ): IStyles {
   const rules = params.reduce((acc, param, i) => {
-    const rule = param.replace(/\s/g, '') /* ? */
+    const rule = param.replace(/\s/g, '')
 
     if (/\:$/.test(rule)) {
       return acc + rule + props[i]

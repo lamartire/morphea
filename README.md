@@ -16,6 +16,13 @@ const styles = css`
   display: block;
   width: 100px;
 `
+
+// Will return
+
+{
+  display: 'block',
+  width: '100px',
+}
 ```
 
 You can also pass one `css` to other `css` if you want to make dynamic styles. For example:
@@ -30,11 +37,18 @@ const styles = css`
   display: block;
   ${width};
 `
+
+// Will return
+
+{
+  display: 'block',
+  width: '100px',
+}
 ```
 
 ## Roadmap
 
-[ ] – css-like generation and appending ready styles to dom
+- [ ] – css-like generation and appending ready styles to dom
 
-[ ] - Save order of css definition in template literals (overwrite css by other css in template
+- [ ] - Save order of css definition in template literals (overwrite css by other css in template
 literals)
