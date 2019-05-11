@@ -1,5 +1,7 @@
 # Morphea – absurdic small css in js library
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/lamartire/morphea.svg)](https://greenkeeper.io/)
+
 ## Main idea
 
 Create tiny framework-agnostic tool with semantic API and bindings for all famous interface
